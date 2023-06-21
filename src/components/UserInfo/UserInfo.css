@@ -5,4 +5,14 @@
 .usercontent {
     display: flex;
     flex-direction: row;
+    width: 1140px;
+    height: 515px;
+    left: 70px;
+    top: 127px;
+
+    background: #FFFFFF;
+    /* Stroke */
+
+    border: 1px solid #DADADA;
+    border-radius: 12px;
 }

@@ -27,7 +27,7 @@
     background: #FFFFFF !important;
     border: 1px solid #DADADA !important;
     border-radius: 10px !important;
-    width: 383px;
+    width: 372px !important;
     height: 35px !important;
     padding: 8px;
     font-family: 'Lato';
@@ -89,12 +89,11 @@
 .datepicker {
     background: #FFFFFF;
     border: 1px solid #DADADA;
-    border-radius: 10px;
-    width: 400px;
+    width: 390px;
 }
 
 .dropdown {
-    width: 402px;
+    width: 390px;
 }
 
 .title_companyname h1 {
