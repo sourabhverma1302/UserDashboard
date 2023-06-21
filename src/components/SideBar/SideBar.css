@@ -1,0 +1,224 @@
+.userdetails {
+    width: 291px;
+    height: 129px;
+    left: 0px;
+    top: 0px;
+    background: #1363DF;
+    border-radius: 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.username {
+    /* width: 76px; */
+    height: 14px;
+    /* left: 109.5px; */
+    top: 59.25px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 1px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 515px;
+}
+
+.sidebar-container {
+    padding: 15px;
+}
+
+.scrolllist {
+    height: 500px;
+    /* Set the desired height */
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* Hide scrollbar track */
+}
+
+.scrolllist::-webkit-scrollbar {
+    width: 3px;
+    /* Set the desired width */
+}
+
+.scrolllist::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #1363DF;
+    /* Hide scrollbar track */
+}
+
+.scrolllist::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* Hide scrollbar thumb */
+}
+
+.scrolllist {
+    /* overflow-y: scroll; */
+    scrollbar-width: thin;
+    height: 500px;
+    scrollbar-color: transparent transparent;
+    /* Hide scrollbar track */
+
+}
+
+.personaldetails {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    padding: 2px;
+    padding-bottom: 2px;
+}
+
+.userskills {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5px 6px;
+    gap: 7.5px;
+    margin: 0px;
+}
+
+.listitems {
+    display: flex;
+    padding: 6px !important;
+    width: 291px !important;
+    background: white !important;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 7.5px !important;
+}
+
+.listitemsnew {
+    padding: 6px !important;
+    display: flex;
+    justify-content: space-between;
+    width: 291px !important;
+}
+
+.listitemsnew h3 {
+    font-size: 16px;
+    margin: 0;
+    width: 203px;
+    height: 19px;
+    left: 82px;
+    top: 295px;
+
+    /* H3 Lato-S.bold */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: black;
+}
+
+.fontstyle {
+    color: #232323;
+}
+
+.listitemsnew p {
+    width: 250px !important;
+    font-size: 12px;
+    margin: 0;
+    height: 20px;
+    left: 82px;
+    top: 322px;
+    margin: 0px;
+    padding: 4px;
+
+    /* B3 Lato-Reg */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* Body text 2 */
+
+    color: #9AA7AC;
+}
+
+.listitems h3 {
+    margin: 0px;
+    width: 285px;
+    height: 19px;
+    left: 82px;
+    top: 295px;
+
+    /* H3 Lato-S.bold */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: black;
+}
+
+.listitems p {
+    width: 285px;
+    height: 28px;
+    left: 82px;
+    top: 322px;
+    margin: 0px;
+    padding: 2px;
+
+    /* B3 Lato-Reg */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* Body text 2 */
+
+    color: #9AA7AC;
+}
+
+.userskills div {
+    width: 38px;
+    height: 12px;
+    background: #EEF2FF;
+    border: 0.375px solid #1363DF;
+    border-radius: 9px;
+    font-size: 9px;
+    padding: 2px;
+    text-align: center;
+}
+
+.listitems {
+    display: flex;
+    flex-direction: column;
+}
+
+.userimage {
+    width: 48px;
+    height: 48px;
+    /* left: 121.5px; */
+    top: 8.25px;
+    border: 1.125px solid #FFFFFF;
+    border-radius: 49.875px;
+}

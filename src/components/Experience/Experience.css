@@ -1,0 +1,116 @@
+.experience-heading {
+    width: 112px;
+    height: 19px;
+    left: 405px;
+    top: 140px;
+
+    /* H3 Lato-S.bold */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Primary(1363DF) */
+
+    color: #1363DF;
+}
+
+.title_companyname {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.textfield {
+    background: #FFFFFF !important;
+    border: 1px solid #DADADA !important;
+    border-radius: 10px !important;
+    width: 383px;
+    height: 35px !important;
+    padding: 8px;
+    font-family: 'Lato';
+    font-style: norml;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.description h1 {
+    height: 17px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Heading Text(171717) */
+
+    color: #171717;
+}
+
+.description input {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Not select */
+
+    color: #B1B1B1;
+    padding: 10px;
+    height: 33px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* White(FFFFFF) */
+
+    background: #FFFFFF;
+    /* Stroke */
+
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.datepicker {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.dropdown {
+    width: 402px;
+}
+
+.title_companyname h1 {
+    height: 17px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Heading Text(171717) */
+
+    color: #171717;
+}
