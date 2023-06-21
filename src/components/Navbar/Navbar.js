@@ -6,17 +6,17 @@ import TaskAltIcon from '@mui/icons-material/TaskAlt';
 import { Divider } from '@mui/material';
 import TextsmsRoundedIcon from '@mui/icons-material/TextsmsRounded';
 import NotificationAddOutlinedIcon from '@mui/icons-material/NotificationAddOutlined';
-// import MenuItem from '@mui/material/MenuItem';
-// import EditIcon from '@mui/icons-material/Edit';
-// import ArchiveIcon from '@mui/icons-material/Archive';
-// import FileCopyIcon from '@mui/icons-material/FileCopy';
-// import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import MenuItem from '@mui/material/MenuItem';
 import { Button } from '@mui/material';
-
-
-import './Navbar.css'
-
+import Menu from '@mui/material/Menu';
+import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
+import './Navbar.css';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
+import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
+import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined';
+import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
+import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 export default function Navbar() {
   return (
     <header className='siteheader'>
@@ -51,27 +51,25 @@ export default function Navbar() {
       </div>
       <Divider orientation="vertical" variant="middle" flexItem />
       <div style={{marginLeft:10}}>
-      <Button
-      id="demo-customized-button"
-      aria-controls={'demo-customized-menu'}
-      aria-haspopup="true"
-      aria-expanded={'true'}
-      // variant="contained"
-      disableElevation
-      endIcon={<KeyboardArrowDownIcon />}
-      style={{backgroundColor:'#DFE6EB'}}
-      >
-      <img src="" alt="" srcset="" height={30} width={30} style={{borderRadius:15,marginRight:10}} />
-        Options
-      </Button>
-      <div
-        id="demo-customized-menu"
-        MenuListProps={{
-          'aria-labelledby': 'demo-customized-button',
-        }}
-      >
+      <PopupState variant="popover" popupId="demo-popup-menu">
+    {(popupState) => (
+      <React.Fragment>
+        <Button variant="contained" {...bindTrigger(popupState)}>
+        <img src="https://fastly.picsum.photos/id/965/200/200.jpg?hmac=OalaXaaPbpRZbMwF3uJMUdZIpUmyqse0anUnQcbStrM" alt="" height={20} width={20} style={{borderRadius:10,marginRight:5}} />
+          Sourabh
+          <ArrowDropDownIcon/>
+        </Button>
+        <Menu {...bindMenu(popupState)} className='loginmenu'>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'><PermIdentityOutlinedIcon/>&nbsp; Profile</MenuItem>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'><EditOutlinedIcon/>&nbsp; Update Job Preference</MenuItem>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'><NoteAddOutlinedIcon/>&nbsp;&nbsp;Logout</MenuItem>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'><StarOutlinedIcon style={{color:'yellow'}}/>&nbsp;&nbsp;Subscription Details</MenuItem>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'>&nbsp;<PersonAddAltOutlinedIcon/>&nbsp;&nbsp;Add User</MenuItem>
+        </Menu>
+      </React.Fragment>
+    )}
+  </PopupState>
       </div>
-    </div>
     </div>
     </div>
     </header>

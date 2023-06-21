@@ -75,6 +75,21 @@ main {
     flex-shrink: 0;
 }
 
+.loginmenu {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.loginmenuitem {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 14px;
+    display: flex;
+    padding: 2px !important;
+}
+
 .navbar {
     background-color: 'white';
     padding: 8px;
