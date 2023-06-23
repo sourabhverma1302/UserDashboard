@@ -17,6 +17,7 @@ import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
+import TableRowsOutlinedIcon from '@mui/icons-material/TableRowsOutlined';
 export default function Navbar() {
   return (
     <header className='siteheader'>
@@ -63,6 +64,7 @@ export default function Navbar() {
           <MenuItem onClick={popupState.close} className='loginmenuitem'><PermIdentityOutlinedIcon/>&nbsp; Profile</MenuItem>
           <MenuItem onClick={popupState.close} className='loginmenuitem'><EditOutlinedIcon/>&nbsp; Update Job Preference</MenuItem>
           <MenuItem onClick={popupState.close} className='loginmenuitem'><NoteAddOutlinedIcon/>&nbsp;&nbsp;Logout</MenuItem>
+          <MenuItem onClick={popupState.close} className='loginmenuitem'><TableRowsOutlinedIcon/>&nbsp;&nbsp;Hiring Process Detail</MenuItem>
           <MenuItem onClick={popupState.close} className='loginmenuitem'><StarOutlinedIcon style={{color:'yellow'}}/>&nbsp;&nbsp;Subscription Details</MenuItem>
           <MenuItem onClick={popupState.close} className='loginmenuitem'>&nbsp;<PersonAddAltOutlinedIcon/>&nbsp;&nbsp;Add User</MenuItem>
         </Menu>

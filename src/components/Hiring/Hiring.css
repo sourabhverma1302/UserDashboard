@@ -1,0 +1,114 @@
+.hiringdetails {
+    display: flex;
+    /* justify-content: flex-end; */
+    height: 700px;
+    width: 420px;
+    border: 2px solid black;
+    float: right;
+    flex-direction: column;
+    /* padding: 15px; */
+    border-radius: 12px;
+}
+
+.firstsection {
+    padding: 5px;
+}
+
+.simple_hiring p {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    text-align: center;
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+    display: flex;
+    /* width: 353px; */
+}
+
+.timelinedata {
+    display: flex;
+    flex-direction: row;
+}
+
+.hiringsteps {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px;
+    height: 90px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--stroke-2, #EBEBEB);
+    background: #FFF;
+    /* Shadow Effect */
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.06);
+}
+
+.viewless {
+    display: flex;
+}
+
+.hiringsteps h1 {
+    color: var(--secondary-232323, #232323);
+    /* B1 Lato-reg */
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.hiringsteps p {
+    display: flex;
+    width: 344px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--text-2, #757575);
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.timelinedot {
+    height: 15px !important;
+    width: 15px !important;
+    /* padding: 6px !important; */
+    align-items: center;
+    justify-content: center;
+}
+
+.simple_hiring h1 {
+    color: var(--secondary-232323, #232323);
+    text-align: center;
+    /* H3 Lato-S.bold */
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    margin: 0;
+}
+
+.imagestyle {
+    width: 122px;
+    height: 127px;
+    flex-shrink: 0;
+}
+
+.hiring {
+    display: flex;
+    flex-direction: column;
+    height: 279px;
+    width: 100%;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #F6F9FF 0%, #5197FF 100%);
+}
+
+.process {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.process h1 {
+    color: var(--primary-1363-df, #1363DF);
+    /* H1 Lato-bold */
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}

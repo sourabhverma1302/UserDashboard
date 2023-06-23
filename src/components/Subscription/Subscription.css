@@ -1,0 +1,230 @@
+.subscriptiondetails {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscriptiondetails h1 {
+    color: var(--primary-1363-df, #1363DF);
+    /* H1 Lato-bold */
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.viewless {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.viewless p {
+    margin: 0;
+}
+
+.recruitrdiamondcand {
+
+    border-radius: 12px;
+    border: 1px solid var(--primary-1363-df, #1363DF);
+    background: var(--white-ffffff, #FFF);
+
+    /* Shadow Effect */
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.06);
+    padding: 11px;
+    margin-top: 20px;
+    width: 365px;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+
+}
+
+.recruitrdiamondcand p {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* text-align: center; */
+    font-size: 12px;
+    font-family: Lato;
+    margin: 6px;
+}
+
+.upgradesubsdiv {
+    padding-top: 90px;
+}
+
+.upgradesubs {
+    border-radius: 10px;
+    background: var(--secondary-232323, #232323);
+    display: flex;
+    width: 388px;
+    height: 52px;
+    padding: 14px 92px 16px 91px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: black !important;
+    color: #FFF !important;
+    text-align: center;
+    /* CTA 1 mont-med */
+    font-size: 18px !important;
+    font-family: Montserrat !important;
+    font-weight: 500 !important;
+}
+
+.recruitrdiamondcand h1 {
+    color: var(--heading-text-171717, #171717);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 700;
+    margin: 6px;
+}
+
+.diamondcand {
+
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 11px; */
+}
+
+.diamondcand h1 {
+    margin: 0;
+}
+
+.diamondcand p {
+    margin: 0;
+}
+
+.fresher {
+    border-radius: 12px;
+    border: 1px solid var(--primary-1363-df, #1363DF);
+    background: var(--white-ffffff, #FFF);
+
+    /* Shadow Effect */
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.06);
+    width: 365px;
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.goldcandidate {
+    border-radius: 12px;
+    border: 1px solid var(--gold, #FBBC05);
+    background: var(--white-ffffff, #FFF);
+
+    /* Shadow Effect */
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.06);
+    display: inline-flex;
+    padding: 7px 10px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 10px;
+    height: 181px;
+    width: 368px;
+
+}
+
+.candidate {
+    height: 53px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 10px; */
+}
+
+.getchance h1 {
+    color: var(--secondary-232323, #232323) !important;
+    font-size: 14px !important;
+    font-family: Lato !important;
+    font-weight: 500 !important;
+    margin: 1px;
+}
+
+.getchance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.getchance p {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    text-align: center;
+    font-size: 12px;
+    font-family: Lato;
+    margin: 6px;
+}
+
+.fresher h1 {
+    margin-bottom: 3%;
+}
+
+.fresher p {
+    margin: 0;
+    margin-top: 4px;
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.existingplan h1 {
+    color: var(--heading-text-171717, #171717);
+    /* H2 lato-bold */
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.candidate h1 {
+    margin: 0;
+}
+
+.candidate p {
+    margin: 0;
+    margin-top: 4px;
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.diamondcand p {
+    margin: 0;
+    margin-top: 4px;
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.upgradeplan h1 {
+    color: var(--heading-text-171717, #171717);
+    /* H2 lato-bold */
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.subscription {
+    float: right;
+    width: 410px;
+    height: 720px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 10px;
+}

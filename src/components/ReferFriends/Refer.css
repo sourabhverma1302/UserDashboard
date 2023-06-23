@@ -1,0 +1,79 @@
+.refer {
+    float: right;
+    /* display: flex; */
+    width: 410px;
+    height: 720px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+
+    /* B1 Lato-reg */
+    height: 100px !important;
+    font-size: 16px;
+    font-family: Lato;
+    display: flex;
+    width: 367px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.socialimages {
+    display: flex;
+    gap: 35px;
+    padding-top: 40px;
+}
+
+.imagename {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+Button span {
+    color: var(--primary-1363-df, #1363DF);
+    text-align: center;
+    /* H2 lato-bold */
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.copybutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputtext {
+    border-radius: 10px;
+    border: 1px solid var(--stroke, #DADADA);
+    background: #FFF;
+    width: 380px;
+    height: 105px;
+    flex-shrink: 0;
+    padding: 15px;
+}
+
+.referfriends h1 {
+    color: var(--primary-1363-df, #1363DF);
+    /* H1 Lato-bold */
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.referfriends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 410px;
+}

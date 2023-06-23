@@ -1,0 +1,118 @@
+.jobpreference {
+    display: flex;
+    /* justify-content: flex-end; */
+    height: 700px;
+    width: 420px;
+    border: 2px solid black;
+    float: right;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.selected-pref {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid var(--primary-1363-df, #1363DF);
+    background: #EEF2FF;
+    color: #000;
+    /* B3 Lato-Reg */
+    font-size: 12px;
+    font-family: Lato;
+    /* padding: 1px; */
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.preferences h1 {
+    color: var(--heading-text-171717, #171717);
+    /* H3 Lato-S.bold */
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.all-pref {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.checkboxstyle {
+    width: 24px;
+    height: 24px;
+    color: var(--secondary-232323, #232323);
+    /* B1 Lato-reg */
+    font-size: 16px;
+    font-family: Lato;
+    display: flex;
+    align-items: center;
+    /* padding-bottom: 15px; */
+}
+
+.checkboxdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkboxdiv p {
+    padding: 7px;
+    margin: 0;
+}
+
+.checkboxlabel {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* B1 Lato-reg */
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.checkboxstyle label {
+    color: var(--body-text-6-a-7-a-80, #6A7A80);
+    /* B1 Lato-reg */
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.jobtitles h1 {
+    color: var(--heading-text-171717, #171717);
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.searchdiv {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.searchjob {
+    width: 393px;
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid var(--not-select, #B1B1B1);
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    margin-left: 0px !important;
+}
+
+
+.prefheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.prefheader h1 {
+    color: var(--primary-1363-df, #1363DF);
+    text-align: center;
+    /* H1 Lato-bold */
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}

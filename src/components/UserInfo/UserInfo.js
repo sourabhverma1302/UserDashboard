@@ -1,6 +1,7 @@
 import React from 'react';
 import SideBar from '../SideBar/SideBar';
-import Experience from '../Experience/Experience';
+// import Experience from '../Experience/Experience';
+import RDownload from '../ResumeDownload/RDownload';
 import './UserInfo.css'
 
 const UserInfo = () => {
@@ -10,7 +11,7 @@ const UserInfo = () => {
     <h1>Profile</h1>
     <div className='usercontent'>
     <SideBar/>
-    <Experience/>
+    <RDownload/>
     </div>
     </div>
     </div>
