@@ -1,6 +1,28 @@
+.refer_con {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 99;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.refer_backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
 .refer {
-    float: right;
-    /* display: flex; */
+    position: relative;
+    z-index: 5;
     width: 410px;
     height: 720px;
     flex-shrink: 0;

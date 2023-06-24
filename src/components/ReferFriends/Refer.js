@@ -7,24 +7,28 @@ import Slack from '../../assets/Social platforms logo (3).svg';
 import Whatsapp from '../../assets/Social platforms logo (2).svg';
 import Insta from '../../assets/Social platforms logo (1).svg';
 import Facebook from '../../assets/Logo.svg';
+import { useDispatch } from 'react-redux';
+import { showornot } from '../../slices/SetShow';
 
 import './Refer.css';
 import { Button } from '@mui/material';
 
 const Refer = () => {
+  const[show,setshow]=useState(false);
     const [inputValue, setInputValue] = useState('');
-
+    const dispatch=useDispatch();
     const handleCopy = () => {
       const inputElement = document.getElementById('outlined-multiline-flexible');
       inputElement.select();
       document.execCommand('copy');
     };
   return (
-    <div className='container'>
+    <>
+    <div className="refer_con">
     <div className='refer'>
     <div className='referfriends'>
     <h1>Refer To Your Friends</h1>
-    <CloseIcon fontSize='large'/>
+    <CloseIcon fontSize='large' onClick={()=>{dispatch(showornot(false))}}/>
     </div>
     <div className='inputtext'>
     <TextField
@@ -63,7 +67,9 @@ const Refer = () => {
     </div>
     </div>
     </div>
+    <div className='refer_backdrop'></div>
     </div>
+    </>
   )
 }
 

@@ -3,10 +3,13 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Divider from '@mui/material/Divider';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import './SideBar.css'
+import './SideBar.css';
+import { useDispatch } from 'react-redux';
+import { showmainbar } from '../../slices/SetShow';
 
 const SideBar = () => {
   const[color,setcolor]=useState(false);
+  const dispatch=useDispatch();
   console.log(color);
   return (
     <div className='sidebar-container'>
@@ -33,7 +36,7 @@ const SideBar = () => {
         These Information can be view by Hiring Teams.</p>
       </ListItem>
       <Divider variant='middle' />
-      <ListItem className='listitemsnew' button>
+      <ListItem className='listitemsnew' button onClick={()=>dispatch(showmainbar('experience'))}>
       <div>
       <h3>Work Experience and Skills</h3>
       <p>Add all your Internships, Work Details...</p>
@@ -67,14 +70,13 @@ const SideBar = () => {
       <AddCircleOutlineIcon className='fontstyle'/>
       </ListItem>
       <Divider light variant='middle'/>
-      <ListItem button className='listitemsnew'>
+      <ListItem button className='listitemsnew' onClick={()=>dispatch(showmainbar('download'))}>
       <div>
       <h3>Upload Video Resume</h3>
       <p>Now share your details in video form to Employer...</p>
       </div>
       <AddCircleOutlineIcon className='fontstyle'/>
       </ListItem>
-      <Divider light variant='middle'/>
     </List>
     </div>
     </div>

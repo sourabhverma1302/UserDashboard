@@ -8,6 +8,9 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import data from './JobPrefData';
 
+import { useDispatch } from 'react-redux';
+import { showornot } from '../../slices/SetShow';
+
 
 import './JobPreference.css';
 
@@ -54,6 +57,7 @@ const Search = styled('div')(({ theme }) => ({
 const JobPreference = () => {
   const[checked,setchecked]=useState(null);
   const[job,setjob]=useState('');
+  const dispatch=useDispatch();
   const handlechange=()=>{
     return data.filter((item)=>item.name.toLowerCase().includes(job));
   }
@@ -62,7 +66,7 @@ const JobPreference = () => {
     <div className='jobpreference'>
     <div className='prefheader'>
     <h1>Your Job Preference</h1>
-    <CloseIcon/>
+    <CloseIcon fontSize='large' onClick={()=>{dispatch(showornot(false))}}/>
     </div>
     <div className='searchdiv'>
     <Search className='searchjob'>

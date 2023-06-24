@@ -8,10 +8,13 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Timeline from '@mui/lab/Timeline';
 import hiringdata from './HiringData';
+import { useDispatch } from 'react-redux';
+import { showornot } from '../../slices/SetShow';
 
 
 
 const Hiring = () => {
+  const dispatch=useDispatch();
   return (
     <div className='container'>
     <div className='hiringdetails'>
@@ -19,7 +22,7 @@ const Hiring = () => {
     <div className='firstsection'>
     <div className='process'>
     <h1>Hiring Process in Details</h1>
-    <CloseIcon fontSize='large'/>
+    <CloseIcon fontSize='large' onClick={()=>{dispatch(showornot(false))}}/>
     </div>
     <div style={{display:'flex',alignItems:'center',justifyContent:'center',padding:10}}><img src={myimage} alt="" height={200} width={200} className='imagestyle' /></div>
     <div className='simple_hiring'>

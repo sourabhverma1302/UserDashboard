@@ -80,6 +80,11 @@ main {
     margin-top: 10px;
 }
 
+.searchjob {
+    width: 350px !important;
+    height: 46px;
+}
+
 .loginmenuitem {
     font-family: 'Lato';
     font-style: normal;

@@ -12,9 +12,9 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 
 import './Experience.css'
 
-const Experience = () => {
+const Experience = ({pageTitle}) => {
   return (
-    <div>
+    <div className='container'>
     <div className='experience'>
     <h1 className='experience-heading'>Add Experience</h1>
     <div className='title_companyname'>
